@@ -1,0 +1,14 @@
+{
+  "name": "winandscale",
+  "owner": {
+    "name": "Win & Scale",
+    "email": "hello@winandscale.com",
+    "url": "https://winandscale.com"
+  },
+  "plugins": [
+    {
+      "name": "winandscale",
+      "source": "./"
+    }
+  ]
+}

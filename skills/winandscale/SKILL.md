@@ -34,7 +34,7 @@ Start every review with `meta_get_evidence_health` and quote its warnings (stale
 
 **Briefs › Tests** — the learning loop: brief a Next test (`meta_save_briefs`, `meta_list_briefs`) → `meta_create_test` commits it (frozen hypothesis and rule) → the team makes the creative from the brief → `meta_launch_ads` with its `testId` (still PAUSED) → after delivery, `meta_observe_test` → `meta_conclude_test` with a verdict. Supersede a test, never rewrite it.
 
-**Sources**: `meta_add_research_source` / `meta_refresh_research_source` → `meta_list_verbatims` → `meta_link_verbatims` to a persona or angle → `meta_get_strategy_rollup`.
+**Sources** (added in Settings › Customer research): `meta_list_research_sources` → `meta_list_verbatims` → `meta_link_verbatims` to a persona or angle → `meta_get_strategy_rollup`.
 
 **Live ads**: `meta_get_overview` (`meta_sync_now` if stale, `meta_backfill_insights` for older days) → `meta_suggest_next` (cut / keep / duplicate / iterate / watch; targets via `meta_set_thresholds`) → `meta_get_breakdowns` (age / country / placement), fixed with `meta_update_ad_set_targeting` (restarts learning). Purchases and ROAS need the purchase pixel.
 

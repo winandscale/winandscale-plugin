@@ -2,7 +2,64 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "winandscale",
   "version": "0.1.0",
-  "description": "Meta ads for AI agents: find the ads that pay. Run your ad account from Claude Code through the Win & Scale MCP server: which creatives bought results and why, creative tests, and every new ad launched paused. Includes slash commands, a reference skill and step-by-step workflow skills.",
-  "homepage": "https://winandscale.com",
-  "license": "MIT"
+  "description": "Manage Meta ads from chat with an AI creative strategist and ad launcher: find which Facebook and Instagram creatives paid and why, brief and run creative tests, and launch every new ad paused.",
+  "author": {
+    "name": "Win & Scale",
+    "email": "hello@winandscale.com",
+    "url": "https://winandscale.com"
+  },
+  "homepage": "https://winandscale.com/agents/mcp",
+  "repository": "https://github.com/winandscale/winandscale-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ai creative strategist",
+    "ai ad launcher",
+    "meta ads",
+    "facebook ads",
+    "instagram ads",
+    "ad launcher",
+    "creative strategist",
+    "creative testing",
+    "creative strategy",
+    "ad creative analysis",
+    "paid social",
+    "performance marketing",
+    "ad angles",
+    "customer personas",
+    "roas",
+    "cpa",
+    "ad copy"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Win & Scale Ads",
+        "shortDescription": "Test & launch Meta ads",
+        "longDescription": "Win & Scale helps businesses manage Meta ads, the ads that run on Facebook and Instagram, directly from a conversation. It works as an AI creative strategist and ad launcher: it reads what each creative actually is (its angle, persona, format, offer and hook) and what it bought, briefs the next creative test, and launches every new ad paused. Connect your Meta ad account once on the Win & Scale settings page, then ask what worked and launch the next ads in plain language.\n\nAsk what has worked over the last 30, 90 or 180 days, and get verdicts per ad, the traits that bought more than their share of spend, and the next tests worth running, each with what it rests on and what would reverse it. Review and correct how creatives are tagged. Brief a test, commit its hypothesis, launch its ads paused, record what delivery showed, and conclude it. Turn customer reviews into copy that quotes real customers. Check live ads and get a cut, keep, duplicate, iterate or watch verdict on each, judged on its own goal.\n\nBuilt for founders, performance marketers and creative strategists running Meta ads for one brand.\n\nSafety by design: every new campaign, ad set and ad is created paused, and nothing spends until a person says to switch it on in the conversation. A cut verdict is advice; the person picks what to pause. Committed tests are never rewritten and observations are only ever appended. Findings are reported as observational, never as proof of cause. The Meta access token is added only on the Win & Scale settings page, never in chat.\n\nLimitations: Meta ads only (no Google, Apple or TikTok ads). One Meta ad account per workspace. Outcomes Meta does not receive, such as qualified leads or margin, are not visible. Connecting requires a Win & Scale account; access is by request.",
+        "developerName": "Win & Scale",
+        "category": "Business & Operations",
+        "capabilities": [
+          "What worked: verdicts, winning traits, next tests",
+          "Creative tagging by angle, persona, format and hook",
+          "Creative test loop: brief, commit, launch, observe, conclude",
+          "Copy drafted from real customer quotes",
+          "Live ad verdicts and breakdowns",
+          "Launches created paused, activated on your word"
+        ],
+        "websiteURL": "https://winandscale.com",
+        "supportURL": "https://winandscale.com/support",
+        "privacyPolicyURL": "https://winandscale.com/privacy",
+        "termsOfServiceURL": "https://winandscale.com/terms",
+        "defaultPrompt": [
+          "What has worked in our Meta ads over the last 90 days, and why?",
+          "Which ads should I cut, keep or scale?",
+          "Brief our next creative test."
+        ],
+        "brandColor": "#1d63d8",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      },
+      "onboardingSkill": "./skills/winandscale-get-started/SKILL.md"
+    }
+  }
 }

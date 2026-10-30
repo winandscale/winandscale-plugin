@@ -1,0 +1,33 @@
+{
+  "name": "winandscale",
+  "version": "0.1.0",
+  "description": "Manage Meta ads from chat with an AI creative strategist and ad launcher: find which Facebook and Instagram creatives paid and why, brief and run creative tests, and launch every new ad paused.",
+  "logo": "assets/icon.png",
+  "author": {
+    "name": "Win & Scale",
+    "email": "hello@winandscale.com",
+    "url": "https://winandscale.com"
+  },
+  "homepage": "https://winandscale.com/agents/mcp",
+  "repository": "https://github.com/winandscale/winandscale-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ai creative strategist",
+    "ai ad launcher",
+    "meta ads",
+    "facebook ads",
+    "instagram ads",
+    "ad launcher",
+    "creative strategist",
+    "creative testing",
+    "creative strategy",
+    "ad creative analysis",
+    "paid social",
+    "performance marketing",
+    "ad angles",
+    "customer personas",
+    "roas",
+    "cpa",
+    "ad copy"
+  ]
+}

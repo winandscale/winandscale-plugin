@@ -1,0 +1,20 @@
+{
+  "name": "winandscale",
+  "interface": {
+    "displayName": "Win & Scale Ads"
+  },
+  "plugins": [
+    {
+      "name": "winandscale",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business & Operations"
+    }
+  ]
+}
