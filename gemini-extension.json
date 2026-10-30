@@ -1,0 +1,11 @@
+{
+  "name": "winandscale",
+  "version": "0.1.0",
+  "description": "Meta ads for AI agents. Find the ads that pay, and launch the next one paused.",
+  "mcpServers": {
+    "winandscale": {
+      "httpUrl": "https://winandscale.com/api/mcp"
+    }
+  },
+  "contextFileName": "skills/winandscale/SKILL.md"
+}

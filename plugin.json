@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "winandscale",
+  "version": "0.1.0",
+  "description": "Meta ads for AI agents: find the ads that pay. Run your ad account from Claude Code through the Win & Scale MCP server: which creatives bought results and why, creative tests, and every new ad launched paused. Includes slash commands, a reference skill and step-by-step workflow skills.",
+  "homepage": "https://winandscale.com",
+  "license": "MIT"
+}

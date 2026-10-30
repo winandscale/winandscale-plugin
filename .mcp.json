@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "winandscale": {
+      "type": "http",
+      "url": "${WINANDSCALE_MCP_URL:-https://winandscale.com/api/mcp}"
+    }
+  }
+}
